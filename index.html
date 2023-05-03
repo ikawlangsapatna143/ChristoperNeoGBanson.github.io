@@ -1,0 +1,208 @@
+<html lang="en">
+<head>
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+   <link rel="stylesheet" href="stylesheet.css">
+   <script defer src="app.js"></script>
+   <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+</head>
+<body background="assets\503720.jpg" style="background-repeat:no-repeat; background-size: 100% 100%; background-attachment: fixed;">
+     <div class="container">
+            <nav>
+                  <img src="assets\logo.png" class="logo">
+                  <ul>
+                      <li><a href="#"onclick="toggleVisibility('Home')">Home</a></li>
+                      <li><a href="#"onclick="toggleVisibility('About')">About</a></li>
+                      <li><a href="#"onclick="toggleVisibility('Skills')">Skills</a></li>
+                      <li><a href="#"onclick="toggleVisibility('Services')">Services</a></li>
+                      <li><a href="#"onclick="toggleVisibility('Contact')">Contact</a></li>
+      
+                  </ul>
+              </div>
+          </nav>  
+      </div>
+    </div>
+   <section id="Home" class="hidden">
+    <div class="row justify-content-center">
+        <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="1000">
+              <img src="assets\caro.jpg" class="d-block w-80 mx-auto" alt="..."class="img-fluid" height="400" width="800">
+            </div>
+            <div class="carousel-item" data-bs-interval="1000">
+              <img src="assets\ro.jpg" class="d-block w-80 mx-auto" alt="..."class="img-fluid" height="400" width="800">
+            </div>
+            <div class="carousel-item" data-bs-interval="1000">
+              <img src="assets\oere.jpg" class="d-block w-80 mx-auto" alt="..."class="img-fluid" height="400" width="800">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div> 
+      <div class="container-lg">
+          <div class="row g-4 justify-content-center align-items-center">
+            <div class="col-md-5 text-center text-md-start">
+              <h1>
+                <div class="display-4 text-light fw-bold">C/CPT Christoper</div>
+                <div class="display-5 text-light"> Neo G. Banson 2cl</div>
+              </h1>
+              <p class="lead my-4 text-light">Corps S3 Operation and Training Officer</p>
+            </div>
+            <div class="col-md-6 text-center d-none d-md-block">
+              <img src="assets\background.png" class="img-fluid" alt="..."
+              class="img-fluid" height="400" width="400">
+            </div>
+          </div>
+        </div>
+    </section>
+    
+    <section id="About" class="hidden">
+        <div class="container">
+    <div class="about-col-2 text-md-center">
+        <h2>CHRISTOPER NEO GOZANO BANSON</h2>
+        <h3>PERSONAL INFORMATION</h3>
+        <p class="text-sm-start">Age			:	20 years old</p>
+        <p class="text-sm-start">Date of Birth	:	August 01, 2002</P>
+        <p class="text-sm-start">Place of Birth	:	Rillo Poblacion, Tuy, Batangas</p>
+        <p class="text-sm-start">Citizenship	:	Filipino</P>
+        <p class="text-sm-start">Sex			:	Male</p>
+        <p class="text-sm-start">Civil Status	:	Single	</P>
+        <p class="text-sm-start">Religion		:	Roman Catholic</p>
+        <p class="text-sm-start">Height			:	5’3”</P>
+        <p class="text-sm-start">Weight			:	65kg</P>
+        <p class="text-sm-start">Mother’s Name  :	Maricris G. Banson</p>
+        <p class="text-sm-start">Father’s Name	:	Marlon M. Banson</P>
+            <h3>EDUCATIONAL BACKGROUND</h3>
+            <p class="text-sm-start">Elementary		     :	Gregorio Paradero Elementary School</p>
+            <p class="text-sm-start">Rizal, Tuy, Batangas</P>
+            <p class="text-sm-start">2014-2015</p>
+            <p class="text-sm-start">Junior Highschool	 :	Jose Lopez Manzano National High School</P>
+            <p class="text-sm-start"> Mataywanac, Tuy, Batangas</p>
+            <p class="text-sm-start">2018-2019</P>
+            <p class="text-sm-start">Senior Highschool	 :	Hercor College Senior High School </p>
+            <p class="text-sm-start">Lawa-an, Roxas City, Capiz</P>
+            <p class="text-sm-start">2020-2021</P>
+            <p class="text-sm-start">College             :	Batangas State University TNEU Balayan Campus</p>
+            <p class="text-sm-start">Caloocan, Balayan, Batangas</P>
+            <p class="text-sm-start">2022-2023</P>
+        <h3>ACHIEVEMENTS</h3>
+            <p class="text-sm-start">Deanlister</p>
+            <p class="text-sm-start">RSCT/ARAPT 31-32</p>
+            <p class="text-sm-start">ROTC Cadets Award</p>
+            </div>
+    </div>
+    </div>
+   </section>
+   
+   <section id="Skills" class="hidden">
+      <div class="card-group" >
+        <div class="card bg-transparent px-2">
+          <img src="assets\tac.jpg" class="card-img-top" alt="..."class="img-fluid" height="400" width="400">
+          <div class="card-body">
+            <h5 class="card-title">Basic Unit Tactics</h5>
+            <p class="card-text">As a ROTC Officer we skilled in Teaching and Executing Basic Unit Tactics.</p>
+          </div>
+        </div>
+        <div class="card bg-transparent px-2">
+          <img src="assets\msrk.jpg" class="card-img-top" alt="..."class="img-fluid" height="400" width="400">
+          <div class="card-body">
+            <h5 class="card-title">Marksmanship</h5>
+            <p class="card-text">As a ROTC Officer we are well trained in using riffle and pistol.</p>
+          </div>
+        </div>
+        <div class="card bg-transparent px-2">
+          <img src="assets\faid.png" class="card-img-top" alt="..."class="img-fluid" height="400" width="400">
+          <div class="card-body">
+            <h5 class="card-title">First Aid</h5>
+            <p class="card-text">As a ROTC Officer we are well trained in cunducting first aid.</p>
+          </div>
+        </div>
+      </div> 
+    </section>
+    <section id="Services" class="hidden">
+        <div class="text-center">
+          <h1>Services</h1>
+        </div>
+        <div class="row justify-content-center">
+          <div class="card bg-transparent" style="width: 40rem;">
+            <img src="assets\Ass.jpg" class="card-img-top" alt="..."class="img-fluid" height="400" width="400" >
+            <div class="card-body text-center">
+              <a href="#"onclick="toggleVisibility('Contact')"class=" btn btn-dark">Click Here:</a>
+              <h2 class="card-title">Community Services</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="card bg-transparent" style="width: 40rem;">
+            <img src="assets\Secu.jpg" class="card-img-top" alt="..."class="img-fluid" height="400" width="400" >
+            <div class="card-body text-center">
+              <a href="#"onclick="toggleVisibility('Contact')"class=" btn btn-dark">Click Here:</a>
+              <h2 class="card-title">Security Assistance</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="card bg-transparent" style="width: 40rem;">
+            <img src="assets\cross.jpg" class="card-img-top" alt="..."class="img-fluid" height="400" width="400" >
+            <div class="card-body text-center">
+              <a href="#"onclick="toggleVisibility('Contact')"class=" btn btn-dark">Click Here:</a> 
+              <h2 class="card-title">Cross Sword</h2>
+            </div>
+          </div>
+        </div>
+    </section>
+   <section id="Contact" class="hidden">
+      <div class="row justify-content-center">
+    <div class="card bg-transparent" style="width: 30rem;">
+        <div class="card-header">
+          Contact us here:+63945-563-5057
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item trs">
+            <div class="text-top">
+              <img src="assets\facebook.png" alt="" class="img-fluid" height="50" width="50">
+              <a href="https://www.facebook.com/BatStateUBalayanROTCU" class="btn btn-dark">BatState U - Balayan Rotc Unit</a>
+             </div>
+             <div class="text-top py-4" >
+              <img src="assets\messenger (1).png" alt="" class="img-fluid" height="50" width="50">
+              <a href="https://www.facebook.com/messages/t" class="btn btn-dark"> C/Cpt Christoper Neo G Banson 2cl</a>
+             </div>
+             <div class="text-top" >
+              <img src="assets\gmail.png" alt="" class="img-fluid" height="50" width="50">
+              <a href="https://mail.google.com/mail/u/0/#inbox?compose=new" class="btn btn-dark">bansonchristoper@gmail.com</a>
+             </div>
+          </li>
+        </ul>
+      </div>
+     </div>
+    </section> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>    
+</body>
+<footer class="footer fixed-bottom">
+  <div class="container-lg">
+    <div class="row justify-content-center align-items-center">
+      <div class="col-md-6 text-center mb-3">
+        Honor.Patriotism.Duty.
+      </div>
+      <div class="col-md-6 text-center mb-3">
+        <img src="assets\dfwf-removebg-preview (1).png" alt="" class="img-fluid" height="50" width="50">
+      </div>
+    </div>
+  </div>
+</footer>
+</html>
